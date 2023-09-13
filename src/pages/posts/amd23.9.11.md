@@ -6,7 +6,6 @@ date: "06 September 2023"
 updatedDate: "09/09/2023"
 
 ---
-!["AMD"](../../assets/cover.png)
 
 ## Updates:
 #### **AMD HYPR-RX:** new driver experience that allows users to optimize their games using AMD Software features for their RDNA 3 based Radeon GPUs

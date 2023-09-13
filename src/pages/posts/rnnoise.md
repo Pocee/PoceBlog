@@ -5,8 +5,6 @@ date: "10 September 2023"
 description: "You will get a free version of real time noise suppression which is very useful if you don't have a good microphone."
 ---
 
-!["RNNOISE"](../../assets/covern.png)
-
 ## A bit of context
 
 #### The **noise suppression** works correctly in Discord, Zoom, OBS and some other specific program if you apply it.But when you are making a recording from scratch with a specific program or in any other situation you need it, there is no noise suppression applied in real time by Windows. There is for example if you have a GIGABYTE board that applies real-time denoising, but it's pretty bad.But, there is an open source plugin made by Werman that works very well, I would say even better than RTXVoice or similar, it doesn't require any requirements and doesn't consume any cpu or gpu resources as RTXVoice or AMD does, and it is **RNNoise**. The thing is that to apply this plugin you need an external program that is constantly running for it to work properly and this is **EqualizerAPO**.
