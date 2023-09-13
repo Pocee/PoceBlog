@@ -5,7 +5,7 @@ date: "10 September 2023"
 description: "You will get a free version of real time noise suppression which is very useful if you don't have a good microphone."
 ---
 
-!["RNNOISE"](../../../public/covern.png)
+!["RNNOISE"](../../assets/covern.png)
 
 ## A bit of context
 

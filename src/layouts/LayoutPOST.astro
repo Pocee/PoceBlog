@@ -20,6 +20,7 @@ const { title, description, date, category, author, image } = frontmatter;
 			<h1 class="h2 text-2xl text-left font-bold" style="margin-top: 85px;">{title}</h1>
 			<p class="mb-3">{date}</p>
 			<p class="" style="font-size: 10px;">{description}</p>
+			<img src="../../public/cover" alt="">
 			<slot>
             </slot>
 		</main>
@@ -38,7 +39,7 @@ const { title, description, date, category, author, image } = frontmatter;
 	}
 	
 	.prose h2 {
-		margin-bottom: ;
+		margin-top: 20px;
 		font-size: 22px;
 		font-weight: bold;
 		color: rgb(136, 250, 180);
