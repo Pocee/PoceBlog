@@ -1,12 +1,12 @@
 ---
-layout: "../../../layouts/LayoutMD.astro"
+layout: "../../layouts/LayoutMD.astro"
 title: "AMD Update 23.9.1"
 description: "just update 23.9.1 (AMD HYPR-RX)"
 date: "06 September 2023"
 updatedDate: "09/09/2023"
 
 ---
-!["AMD"](./cover.png)
+!["AMD"](../../../public/cover.png)
 
 ## Updates:
 #### **AMD HYPR-RX:** new driver experience that allows users to optimize their games using AMD Software features for their RDNA 3 based Radeon GPUs
