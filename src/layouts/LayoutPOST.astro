@@ -1,0 +1,97 @@
+---
+import Header from "../components/Header.astro"
+import Footer from "../components/Footer.astro"
+const { frontmatter } = Astro.props;
+const { title, description, date, category, author, image } = frontmatter;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+	</head>
+	<body class="w-2/6 h-5/6 m-auto">
+		<Header />
+		<main class="prose font-mono">
+			<h1 class="h2 text-2xl text-left font-bold" style="margin-top: 85px;">{title}</h1>
+			<p class="mb-3">{date}</p>
+			<p class="" style="font-size: 10px;">{description}</p>
+			<slot>
+            </slot>
+		</main>
+		<Footer />
+	</body>
+</html>
+
+
+<style is:global>
+	.prose a {
+		margin-top: 100px;
+	}
+
+	.prose h1 {
+		
+	}
+	
+	.prose h2 {
+		margin-bottom: ;
+		font-size: 22px;
+		font-weight: bold;
+		color: rgb(136, 250, 180);
+	}
+
+	.prose h3 {
+		margin-top: 8px;
+		font-size: 17px;
+		color: rgb(112, 199, 158)
+		
+	}
+
+	.prose h4 {
+		font-size: 13px;
+		color:rgb(206, 206, 206);
+		
+	}
+
+	.prose h5 {
+		font-size: 13px;
+		text-decoration: underline;
+		
+		
+	}
+
+	.prose blockquote {
+		margin-bottom: 10px;
+		margin-left: 10%;
+		margin-top: 40px;
+		text-align: center;
+		font-size: 12px;
+		font-style: italic;
+		
+	}
+
+    .prose p + p {
+        margin-bottom: 20px; 
+    }
+
+	html {
+		background: #1d1f20;
+		color-scheme: dark light;
+		height: 100%
+	}
+	code {
+		font-family:
+			Menlo,
+			Monaco,
+			Lucida Console,
+			Liberation Mono,
+			DejaVu Sans Mono,
+			Bitstream Vera Sans Mono,
+			Courier New,
+			monospace;
+	}
+</style>

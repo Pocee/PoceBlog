@@ -1,0 +1,75 @@
+---
+import Layout from "../layouts/Layout.astro"
+import github from "../../public/github.svg"
+import linkedin from "../../public/linkedin.svg"
+import mail from "../../public/mail.svg"
+---
+
+<Layout title="Home • Poce Blog">
+    <div class="">
+        <section>
+            <h1 class="title mb-6 text-left font-semibold text-2xl font-mono text-gray-150">Hello World!</h1>
+            <p class="mb-4 text-left font-mono text-sm text-gray-300">
+                I'm Poce, an information technology enthusiast. I have a passion for hardware and a
+                deep love for security and system administration. I'm navigating this wonderful world by
+                sharing the bits of knowledge I have and forming meaningful connections along the way whenever
+                possible! :)<br>
+                I'm making this blog to learn a little bit about frontend :P
+            </p>
+        </section>
+        <div class="flex">
+            <a href="https://www.linkedin.com/in/dani-poce/" class="mr-3" target="_blank">
+              <img src={linkedin.src} width="22" class="rounded-md ring-zinc-400 transition-all duration-75 hover:border-2">
+            </a>
+            <a href="https://github.com/Pocee" class="mr-3" target="_blank">
+              <img src={github.src} width="22" class="rounded-md ring-zinc-400 transition-all duration-75 hover:border-2">
+            </a>
+            <a href="mailto:pocee.it@gmail.com" style="margin-left: -1.1px;" target="_blank">
+              <img src={mail.src} width="22" class="rounded-md ring-zinc-400 transition-all duration-75 hover:border-2">
+            </a>
+        
+    </div>
+    <div class="text-left font-mono font-semibold text-2xl" style="margin-top: 60px;">
+        Posts
+    </div>
+      <div class="text-left font-mono text-sm mt-5 justify-normal" style="display: grid; grid-template-columns: 20% 80%; grid-template-rows: repeat(6, 20%);">
+        <div class="text-gray-500">10 Sept 2023</div>
+        <div>
+            <a class="text-gray-300 underline hover:text-green-300" href="/posts/rnnoise">Replacement to RTXVoice and AMDVoiceSupression, open source</a>
+        </div>
+        <div class="text-gray-500">9 Sept 2023</div>
+        <div>
+            <a class="text-gray-300 underline hover:text-green-300" href="/posts/nvchad">Nvim + NvChad</a>
+        </div>
+        <div class="text-gray-500">9 Sept 2023</div>
+        <div>
+            <a class="text-gray-300 underline hover:text-green-300" href="/posts/amd23.9.11">AMD Update 23.9.1</a>
+        </div>
+        <div class="text-gray-500">9 Sept 2023</div>
+        <div>
+            <a class="text-gray-300 underline hover:text-green-300" href="/posts/discord">Discord Nitro :)</a>
+        </div>
+        <div class="text-gray-500">9 Sept 2023</div>
+        <div>
+            <a class="text-gray-300 underline hover:text-green-300" href="/posts/secweb">Just some geeks security websites</a>
+        </div>
+        <div class="text-gray-500">9 Aug 2023</div>
+        <div>
+            <a class="text-gray-300 underline hover:text-green-300" href="/posts/spotifyad">Spotify Adblock on PC</a>
+        </div>
+    </div>
+    <div class="text-left font-mono font-semibold text-2xl " style="margin-top: 60px;">
+        Technologies
+    </div>
+      <div class="flex font-mono justify-normal flex-col text-sm mt-5 text-left space-y-2 text-gray-400">
+        <span><a class="text-gray-300 underline hover:text-green-300" href="#">Astro:</a> Build fast websites, faster.</span>
+        <span><a class="text-gray-300 underline hover:text-green-300" href="#">Astro Assets:</a> Built-in optimized asset support.</span>
+        <span><a class="text-gray-300 underline hover:text-green-300" href="#">Tailwind CSS:</a> Rapidly build modern websites without ever leaving your HTML.</span> 
+        <span><a class="text-gray-300 underline hover:text-green-300" href="#">Markdown:</a> Simple and easy-to-use markup language.</span>
+        <span><a class="text-gray-300 underline hover:text-green-300" href="#">MDX:</a> Markdown for the component era.</span> 
+        <span><a class="text-gray-300 underline hover:text-green-300" href="#">Astro Icon:</a> An easy to use Icon component for Astro.</span> 
+    </div>
+  </div>
+
+    
+</Layout>

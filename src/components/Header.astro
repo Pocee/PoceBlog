@@ -1,0 +1,47 @@
+---
+import P from "../../public/P.svg"
+import search from "../../public/search.svg"
+import sun from "../../public/sun.svg"
+---
+
+<header class="flex items-center justify-center h-20 text-gray-300 mt-10">
+    <div class="p-0 m-0 w-screen flex justify-between">
+        <div class="flex">
+            <img src={P.src} alt="" width="65" class="filter grayscale hover:filter-none">
+            <div>
+                <div class="text-2xl font-bold pl-2">
+                    Poce
+                </div>
+                <ul class="flex mb-3 text-xs pt-1 pl-2" style="color:#29bc89 ">
+                    <li class="pr-2 border-r-2 border-dotted" style="border-color:#26916C;" >
+                        <a href="/">Home</a>
+                    </li>
+                    <li class="pl-2">
+                        <a href="/">Posts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+            <div class="flex items-center">
+                <div>
+                    <button
+                        data-open-modal
+                        disabled
+                        class="flex h-12 w-12 items-center justify-center rounded-md ring-zinc-400 transition-all hover:ring-2"
+                    >
+                        <!-- <img src= height="30" width="27">-->
+                    </button>
+                </div>
+                <div class="ml-2">
+                    <button
+                        type="button"
+                        class="group relative h-12 w-12 rounded-md p-2 ring-zinc-400 transition-all hover:ring-2 "
+                    >
+                        <!--<img src={sun.src} width="50" height="50">-->
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </header>
+  
